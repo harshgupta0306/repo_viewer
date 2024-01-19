@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, select, button {
+    margin-bottom: 0.5em;
+}
+
+#repositories {
+    list-style: none;
+    padding: 0;
+}
+
+.repository {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.loader{
+    display: none;
+}
+
+/* #pagination > *{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    border: none;
+    border-color: black;
+    background-color: white;
+    border-radius: 30px;
+  }*/
+
+/* #pagination > .active{
+    background-color: green;
+    color: white; 
+} */
+
+#Profile {
+    display: none;
+}
