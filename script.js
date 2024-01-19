@@ -1,7 +1,7 @@
 import { Octokit } from "https://esm.sh/octokit";
 
 let currentPage = 1;
-const octokit = new Octokit({ auth: `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` }); // change this to your token
+const octokit = new Octokit({ auth: "your_token" }); // change this to your token
 
 const getRepoButton = document.getElementById("getRepo");
 const perPage =document.getElementById("perPage");
