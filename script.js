@@ -62,7 +62,7 @@ export async function getRepositories() {
 
             const reponame = document.createElement("h5")
             reponame.className = "text-decoration-none text-dark"
-            reponame.textContent=`${repo.name}<br> `
+            reponame.textContent=`${repo.name}`
             const repodisc = document.createElement("h6") 
             repodisc.className= "text-decoration-none text-secondary"
             repodisc.textContent=` ${repo.description || 'No description available'}`;
